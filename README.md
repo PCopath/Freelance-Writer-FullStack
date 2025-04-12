@@ -35,7 +35,7 @@ Frontend ve Backend ayrı repository olarak geliştirilmiş ve canlıya deploy e
 
 🔑 Admin Giriş Bilgileri
 Kullanıcı Adı	Şifre
-admin	123456
+
 Not: Şifreyi backend .env dosyasından değiştirebilirsiniz.
 
 📸 Proje Ekran Görüntüsü
