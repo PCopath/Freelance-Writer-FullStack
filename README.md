@@ -77,5 +77,7 @@ Copy
 Edit
 cd frontend
 Open with Live Server / or deploy with Vercel
+
 👨‍💻 Developer
+
 This project was developed by Mehmet Yasir Balcı, a senior Computer Engineering student.
