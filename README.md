@@ -1,26 +1,26 @@
-✍️ Freelance Writer - Full Stack Blog Projesi
-Bu proje, basit ve modern bir blog sistemi geliştirmek için hazırlanmış full stack bir web uygulamasıdır.
+✍️ Freelance Writer - Full Stack Blog Project
+This project is a full stack web application built to create a simple and modern blog system.
 
-Frontend ve Backend ayrı repository olarak geliştirilmiş ve canlıya deploy edilmiştir.
+The frontend and backend are developed as separate repositories and have been deployed live.
 
-🚀 Proje Özellikleri
-🔐 Admin Login Sistemi
+🚀 Project Features
+🔐 Admin Login System
 
-📝 Blog Ekle / Sil / Güncelle (CRUD)
+📝 Blog Create / Delete / Update (CRUD)
 
-📰 Blog Listeleme
+📰 Blog Listing
 
-📄 Blog Detay Sayfası
+📄 Blog Detail Page
 
-🎨 Responsive Tasarım
+🎨 Responsive Design
 
-☁️ MongoDB Veritabanı
+☁️ MongoDB Database
 
 🔑 JWT Authentication
 
-🌍 Vercel & Render ile Deploy Edildi
+🌍 Deployed with Vercel & Render
 
-🛠️ Kullanılan Teknolojiler
+🛠️ Technologies Used
 🧩 HTML / CSS / JavaScript (Vanilla JS)
 
 ⚙️ Express.js / Node.js
@@ -29,41 +29,41 @@ Frontend ve Backend ayrı repository olarak geliştirilmiş ve canlıya deploy e
 
 🔐 JWT Auth
 
-🚀 Render (Backend Deploy)
+🚀 Render (Backend Deployment)
 
-🌐 Vercel (Frontend Deploy)
+🌐 Vercel (Frontend Deployment)
 
-🔑 Admin Giriş Bilgileri
-Kullanıcı Adı	Şifre
-admin	123456
-Not: Şifreyi backend .env dosyasından değiştirebilirsiniz.
+🔑 Admin Login Credentials
+Username | Password
+You can change the password in the backend .env file.
 
-📸 Proje Ekran Görüntüsü
-Blog Listesi:
+📸 Project Screenshots
+Blog List:
 🔗 https://freelance-writer-frontend.vercel.app/blog.html
 
-Blog Detay Sayfası:
+Blog Detail Page:
 🔗 https://freelance-writer-frontend.vercel.app/blog-detail.html?id=xxxxx
 
 Admin Panel:
 🔗 https://freelance-writer-frontend.vercel.app/admin.html
 
-🌐 Canlı Proje Linkleri
+🌐 Live Project Links
 Frontend (Vercel):
 🔗 https://freelance-writer-frontend.vercel.app/
 
 Backend (Render API):
 🔗 https://freelance-writer-backend.onrender.com/
 
-📦 Kurulum (Local Çalıştırmak İçin)
+📦 Installation (For Local Development)
 Backend:
+
 bash
 Copy
 Edit
 cd backend
 npm install
 npm run dev
-.env Dosyası:
+.env File:
 
 ini
 Copy
@@ -71,11 +71,13 @@ Edit
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 Frontend:
+
 bash
 Copy
 Edit
 cd frontend
-Live Server ile aç / veya Vercel ile deploy et
-👨‍💻 Geliştirici
-Bu proje Bilgisayar Mühendisliği Son Sınıf Öğrencisi
-💻 Mehmet Yasir Balcı tarafından geliştirilmiştir.
+Open with Live Server / or deploy with Vercel
+
+👨‍💻 Developer
+
+This project was developed by Mehmet Yasir Balcı, a senior Computer Engineering student.
