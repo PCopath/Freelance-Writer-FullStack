@@ -39,6 +39,7 @@ router.post("/", verifyToken, async (req, res) => {
   const newBlog = new Blog({
     title: req.body.title,
     content: req.body.content,
+    image: req.body.image, // 🔥 BU SATIR EKLENDİ
   });
 
   const savedBlog = await newBlog.save();
@@ -60,8 +61,9 @@ router.put("/:id", verifyToken, async (req, res) => {
     {
       title: req.body.title,
       content: req.body.content,
+      image: req.body.image, // 🔥 GÜNCELLEMEYE DE EKLENDİ (opsiyonel ama önerilir)
     },
-    { new: true } // Güncel halini döndür
+    { new: true } // Güncel halini döndürsün
   );
 
   res.json(updatedBlog);
